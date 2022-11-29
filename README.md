@@ -2,6 +2,8 @@
 
 Reproducing inconcistencies with interacting with process.env between Node and Bun.
 
+You must use a build of Bun at least version `0.3.0` (using `bun upgrade --canary`)
+
 ## Expected behaviour 
 
 Tests should all pass. 
